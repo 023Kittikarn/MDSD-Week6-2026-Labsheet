@@ -598,7 +598,6 @@ Future<Weather> fetchWeatherWithDio(String city) async {
   }
 ```
 
-```
 ---
 
 ## ส่วนที่ 7: ต่อยอดเข้าสู่โปรเจกต์ Campus Marketplace
