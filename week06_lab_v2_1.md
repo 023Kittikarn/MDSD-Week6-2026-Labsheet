@@ -80,6 +80,8 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
+<img width="1285" height="622" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 09 46 02" src="https://github.com/user-attachments/assets/d3d71201-3e9b-4a81-8058-8a1c2258029a" />
+
 ### ขั้นตอนที่ 1.2 — 🧠 คิดเอง/ออกแบบเอง
 
 ออกแบบการทดสอบกรณีผิดพลาด (error case) อย่างน้อย 1 กรณี โดยเปลี่ยนค่าพารามิเตอร์บางตัวใน Request ให้เป็นสิ่งที่คาดว่าจะทำให้เซิร์ฟเวอร์ตอบกลับด้วย error (ตัวอย่างแนวทางที่เลือกได้ เช่น เปลี่ยนชื่อเมืองเป็นชื่อที่ไม่มีอยู่จริง, ใส่ `appid` ผิด, หรือลบ `appid` ออกไปเลย) **ก่อนกด Send ให้เขียนคาดการณ์ ก่อนว่า นักศึกษาคิดว่า Status Code จะเป็นอะไร** แล้วจึงทดสอบจริงเพื่อเทียบกับที่คาดไว้
@@ -89,6 +91,8 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
+<img width="1288" height="198" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 09 49 54" src="https://github.com/user-attachments/assets/3fcf7da2-c5bb-4458-a519-36cbbfb9903b" />
+
 ---
 
 ## ส่วนที่ 2: สร้าง Model Class และเรียก API ด้วย http Package
