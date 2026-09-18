@@ -1,4 +1,4 @@
-# ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
+<img width="928" height="400" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 48 27" src="https://github.com/user-attachments/assets/bba1b2b8-1d14-46b0-b92b-9c4c646e91f3" /><img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 21" src="https://github.com/user-attachments/assets/f318dd7f-d83e-4dcc-82f2-14e006b6597f" /># ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
 
 **วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
 
@@ -189,6 +189,8 @@ void main() {
 ```text
 บันทึกรูปที่นี่
 ```
+<img width="823" height="118" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 06 18" src="https://github.com/user-attachments/assets/82150816-4979-4b82-9ca9-b3d836cfcba3" />
+
 ### ขั้นตอนที่ 2.3 — 🧠 คิดเอง/ออกแบบเอง
 
 สร้างไฟล์ `lib/services/weather_service.dart` แล้วเขียน `WeatherService` ต่อจากตัวอย่างโครงเริ่มต้นด้านล่างนี้  
@@ -239,6 +241,8 @@ class WeatherService {
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
+<img width="933" height="94" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 32 52" src="https://github.com/user-attachments/assets/52190b32-da24-4866-96ec-adbbdf8c5c94" />
+
 
 ### ขั้นตอนที่ 2.4 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -358,6 +362,10 @@ class MyApp extends StatelessWidget {
 ```text
 บันทึกรูปที่นี่
 ```
+<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 42 50" src="https://github.com/user-attachments/assets/d7558ce9-4666-4262-8be7-41a26afefec8" />
+<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 01" src="https://github.com/user-attachments/assets/79384fc0-b4d1-4cd1-a678-1347330a6725" />
+<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 21" src="https://github.com/user-attachments/assets/ccf4a5a1-c546-47f8-a5a3-f751cccce35c" />
+
 
 ---
 
@@ -409,6 +417,8 @@ ElevatedButton(
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
+<img width="928" height="400" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 48 27" src="https://github.com/user-attachments/assets/c00cb36b-8756-4c3a-ba55-e892b1ac16b6" />
+
 
 ### ขั้นตอนที่ 3.2 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -436,6 +446,8 @@ Future<void> updateDemoPost() async {
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
+<img width="940" height="213" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 55 04" src="https://github.com/user-attachments/assets/3c0e1241-d5ff-4c1a-bfb2-8c2135874db8" />
+
 ---
 
 ## ส่วนที่ 4: ใช้ AI ช่วย Generate โค้ด API Client
@@ -491,6 +503,8 @@ GET https://fakestoreapi.com/products
 ```text
 บันทึกรูปที่นี่
 ```
+<img width="1237" height="441" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 11 05 01" src="https://github.com/user-attachments/assets/387d9943-507c-4d89-bfd2-139d6295af8b" />
+
 
 ---
 
@@ -552,6 +566,8 @@ Future<Weather> fetchWeatherWithDio(String city) async {
 ```text
 บันทึกรูปที่นี่
 ```
+![Uploading ภาพถ่ายหน้าจอ 2569-09-18 เวลา 11.45.57.png…]()
+
 ### ขั้นตอนที่ 5.4 — 🧠 คิดเอง/ออกแบบเอง
 
 `DioException` มีหลายชนิด (`DioExceptionType`) แต่โค้ดในขั้นตอนที่ 5.2 จัดการเฉพาะ `connectionTimeout` ด้านล่างเป็นตัวอย่างการเพิ่มเงื่อนไขให้อีก 1 ชนิด (`badResponse`) ให้ดูเป็นแนวทาง จากนั้นให้เพิ่มเงื่อนไข `else if` อีกอย่างน้อย 1 ชนิดด้วยตัวเอง โดยเลือกจาก `DioExceptionType.receiveTimeout` หรือ `DioExceptionType.connectionError` (ห้ามซ้ำกับ `badResponse` ที่ให้เป็นตัวอย่างแล้ว) พร้อมข้อความแจ้งเตือนภาษาไทยที่เหมาะสมกับสาเหตุนั้นโดยเฉพาะ (ค้นคว้าความหมายของแต่ละชนิดได้จากเอกสารของแพ็กเกจ `dio` บน pub.dev)
@@ -574,12 +590,28 @@ Future<Weather> fetchWeatherWithDio(String city) async {
 
 ```text
 บันทึกคำตอบที่นี่
+จากการทดลองพบว่า `http` และ `dio` สามารถใช้เรียก API ได้เหมือนกัน แต่มีความแตกต่างกันหลายด้าน โดย `http` ต้องใช้ `jsonDecode()` เพื่อแปลงข้อมูล JSON จาก `response.body` ก่อนนำไปใช้งาน ส่วน `dio` สามารถรับข้อมูลผ่าน `response.data` ได้โดยตรง จึงช่วยลดขั้นตอนในการแปลงข้อมูล
+ด้านการกำหนด Query Parameters นั้น `http` ต้องจัดการผ่าน `Uri` หรือการสร้าง URL ส่วน `dio` สามารถกำหนดผ่าน `queryParameters` ได้โดยตรง ทำให้เขียนโค้ดได้สะดวกและอ่านง่ายกว่า
+ด้านการจัดการ Exception นั้น `dio` มี `DioException` และ `DioExceptionType` สำหรับแยกประเภทข้อผิดพลาด เช่น `connectionTimeout`, `badResponse`, `receiveTimeout` และ `connectionError` ทำให้สามารถกำหนดข้อความแจ้งเตือนให้เหมาะกับแต่ละสาเหตุได้
+
 ```
 >
 > ✅ **Checkpoint 5.3** แสดงโค้ดเงื่อนไข `DioExceptionType` เพิ่มเติมที่เขียนเองในขั้นตอนที่ 5.4 
 
 ```text
 บันทึกคำตอบที่นี่
+    dart
+  } else if (e.type == DioExceptionType.receiveTimeout) {
+    throw Exception(
+      'รอรับข้อมูลจากเซิร์ฟเวอร์นานเกินไป กรุณาลองใหม่อีกครั้ง',
+    );
+  } else if (e.type == DioExceptionType.connectionError) {
+    throw Exception(
+      'ไม่สามารถเชื่อมต่อกับเซิร์ฟเวอร์ได้ กรุณาตรวจสอบอินเทอร์เน็ต',
+    );
+  }
+```
+
 ```
 ---
 
