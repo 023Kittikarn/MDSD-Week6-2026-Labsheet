@@ -358,9 +358,6 @@ class MyApp extends StatelessWidget {
 ```text
 บันทึกรูปที่นี่
 ```
-<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 42 50" src="https://github.com/user-attachments/assets/d7558ce9-4666-4262-8be7-41a26afefec8" />
-<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 01" src="https://github.com/user-attachments/assets/79384fc0-b4d1-4cd1-a678-1347330a6725" />
-<img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 21" src="https://github.com/user-attachments/assets/ccf4a5a1-c546-47f8-a5a3-f751cccce35c" />
 
 
 ---
@@ -413,8 +410,6 @@ ElevatedButton(
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
-<img width="928" height="400" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 48 27" src="https://github.com/user-attachments/assets/c00cb36b-8756-4c3a-ba55-e892b1ac16b6" />
-
 
 ### ขั้นตอนที่ 3.2 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -442,8 +437,6 @@ Future<void> updateDemoPost() async {
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
-<img width="940" height="213" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 55 04" src="https://github.com/user-attachments/assets/3c0e1241-d5ff-4c1a-bfb2-8c2135874db8" />
-
 ---
 
 ## ส่วนที่ 4: ใช้ AI ช่วย Generate โค้ด API Client
@@ -499,8 +492,6 @@ GET https://fakestoreapi.com/products
 ```text
 บันทึกรูปที่นี่
 ```
-<img width="1237" height="441" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 11 05 01" src="https://github.com/user-attachments/assets/387d9943-507c-4d89-bfd2-139d6295af8b" />
-
 
 ---
 
@@ -562,7 +553,6 @@ Future<Weather> fetchWeatherWithDio(String city) async {
 ```text
 บันทึกรูปที่นี่
 ```
-![Uploading ภาพถ่ายหน้าจอ 2569-09-18 เวลา 11.45.57.png…]()
 
 ### ขั้นตอนที่ 5.4 — 🧠 คิดเอง/ออกแบบเอง
 
