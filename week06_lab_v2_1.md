@@ -1,4 +1,4 @@
-<img width="928" height="400" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 48 27" src="https://github.com/user-attachments/assets/bba1b2b8-1d14-46b0-b92b-9c4c646e91f3" /><img width="1710" height="1112" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 43 21" src="https://github.com/user-attachments/assets/f318dd7f-d83e-4dcc-82f2-14e006b6597f" /># ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
+# ใบงานปฏิบัติบทที่ 6 API Integration & Networking ด้วย http Package
 
 **วิชา** การพัฒนาซอฟต์แวร์สำหรับอุปกรณ์เคลื่อนที่ | **เครื่องมือ** Flutter, http package, Postman, Google AI Studio (Gemini API), OpenWeather API
 
@@ -80,7 +80,6 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
-<img width="1285" height="622" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 09 46 02" src="https://github.com/user-attachments/assets/d3d71201-3e9b-4a81-8058-8a1c2258029a" />
 
 ### ขั้นตอนที่ 1.2 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -91,7 +90,6 @@ https://api.openweathermap.org/data/2.5/weather?q=Bangkok&appid=YOUR_API_KEY&uni
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
-<img width="1288" height="198" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 09 49 54" src="https://github.com/user-attachments/assets/3fcf7da2-c5bb-4458-a519-36cbbfb9903b" />
 
 ---
 
@@ -189,7 +187,6 @@ void main() {
 ```text
 บันทึกรูปที่นี่
 ```
-<img width="823" height="118" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 06 18" src="https://github.com/user-attachments/assets/82150816-4979-4b82-9ca9-b3d836cfcba3" />
 
 ### ขั้นตอนที่ 2.3 — 🧠 คิดเอง/ออกแบบเอง
 
@@ -241,7 +238,6 @@ class WeatherService {
 ```text
 บันทึกรูปและคำตอบที่นี่
 ```
-<img width="933" height="94" alt="ภาพถ่ายหน้าจอ 2569-09-18 เวลา 10 32 52" src="https://github.com/user-attachments/assets/52190b32-da24-4866-96ec-adbbdf8c5c94" />
 
 
 ### ขั้นตอนที่ 2.4 — 🧠 คิดเอง/ออกแบบเอง
